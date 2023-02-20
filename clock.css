@@ -1,0 +1,54 @@
+body {
+    background-image: url("images/top-view-red-alarm-clock.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(236, 204, 19);
+}
+
+.clock {
+    margin: 314px 0px 0px 160px;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0px;
+    background-color: rgb(189 206 92);
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+.clock p {
+    font-size: 10px;
+    position: absolute;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.clock .colun-first {
+    position: absolute;
+    left: 288px;
+    top: 410px;
+    padding: 0px 0px 0px 0px;
+}
+
+.clock .colun-second {
+    position: absolute;
+    left: 406px;
+    top: 410px;
+}
+
+
+.clock .clock-inner {
+    text-align: center;
+    font-size: 50px;
+    float: left;
+    background-color: white;
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+    margin: 90px 0px 0px 18px;
+    padding: 10px 0px 0px 0px;
+}
